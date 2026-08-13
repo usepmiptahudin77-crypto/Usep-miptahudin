@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20260813-05-b52571e","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Canva Sans":"YAFLd8sKbwc,2","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAHO2VMiyZo,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAEul-FRQw4,0","Georgia":"YAGzXkO0pEM,0","Helvetica Neue":"YAFcf6CtJfI,0","Impact":"YAFcfnjI7Vk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YAFdJksXcAk,0","Libre Baskerville":"YACgEUFdPdA,0","Manrope":"YAHO2b2feC4,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YADLjI9qxTA,0","Nunito":"YACgEX8C5Gg,0","Oleo Script":"YACgEQQ14jI,0","Phantom Sans":"YAHO2E8Pb88,0","Playfair Display":"YACgEYmuCJE,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Quicksand":"YADWjpfPmdk,0","Raleway":"YACgEVg3xZg,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Spectral":"YAHO2rVUHIM,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Ubuntu":"YACgERDU--Q,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0","ui-monospace":"YADlN8CFZ8Q,0","ui-sans-serif":"YACkoN-xg4g,0"}}');</script><script src="/_sdk/7949ff62d67710d5.telemetry_sdk.js" integrity="sha512-KIvXA82Di44YY/RH9/63A9MuTuavYgDFG8PfErJn7Wli4K0LAOk+coo/aPXk3+ZNL96nHh9VYD4PE+fLes+laQ=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perpustakaan Digital</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;family=Playfair+Display:wght@700&amp;display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <style>
+        body { font-family: 'DM Sans', sans-serif; }
+        .hero-overlay { background: linear-gradient(to bottom, rgba(15,23,42,0.7), rgba(15,23,42,0.9)); }
+    </style>
+  <script src="/_sdk/eba18683f23e5798.resizing_sdk.js" type="text/javascript" integrity="sha512-E0UWUllhwPXaNJtjyTKXWKrIE+FruPfFpO4mRmMDP2LI+U9bOizy5npCq6xx/JyWcvSK7D3TFf2wFR2Mha9kbA=="></script>
+ <script src="/_sdk/0e8d3a91e1c6f495.data_sdk.js" integrity="sha512-c00oDoGjsMgluCLLEyVl3suwEkgjOGGplVFbsilUoBg4aMKNmsL3mwsc9r0dPn95qiSZyjBousQXgROkAW7p/w=="></script></head>
+ <body data-template-id="__page-root" class="min-h-screen w-full" style="background: rgb(248, 250, 252);">
+  <header class="relative h-56 overflow-hidden">
+   <img data-template-id="hero-image" class="canva-image absolute inset-0 w-full h-full object-cover" loading="lazy" src="https://images.pexels.com/photos/16167985/pexels-photo-16167985.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1280" alt="Cozy scene with a book, smartphone, and low lighting conveying a relaxed evening at home.">
+   <div class="hero-overlay absolute inset-0 flex flex-col items-center justify-center p-6">
+    <h1 data-template-id="app-title" class="canva-text text-center" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 32px;">Perpustakaan Digital</h1>
+    <p data-template-id="app-subtitle" class="canva-text mt-2 text-center" style="color: rgb(203, 213, 225); font-weight: 400; font-style: normal; font-size: 16px;">Kelola koleksi buku digital Anda</p>
+   </div>
+  </header>
+  <main class="max-w-2xl mx-auto p-4 space-y-6">
+   <section data-template-id="form-section" class="canva-card rounded-xl p-5" style="background: rgb(255, 255, 255);">
+    <h2 data-template-id="form-heading" class="canva-text font-bold mb-4" style="color: rgb(15, 23, 42); font-weight: 700; font-style: normal; font-size: 24px;">Tambah Buku Baru</h2>
+    <form id="book-form" class="space-y-3">
+     <div>
+      <label data-template-id="label-title" class="canva-text block mb-1 text-sm font-medium" for="inp-title" style="color: rgb(51, 65, 85); font-weight: 400; font-style: normal; font-size: 16px;">Judul</label> <input id="inp-title" data-template-id="input-title" class="canva-input w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500" required="" placeholder="Masukkan judul buku" style="font-weight: 400; font-style: normal; font-size: 16px;">
+     </div>
+     <div>
+      <label data-template-id="label-author" class="canva-text block mb-1 text-sm font-medium" for="inp-author" style="color: rgb(51, 65, 85); font-weight: 400; font-style: normal; font-size: 16px;">Penulis</label> <input id="inp-author" data-template-id="input-author" class="canva-input w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500" required="" placeholder="Masukkan nama penulis" style="font-weight: 400; font-style: normal; font-size: 16px;">
+     </div>
+     <div class="grid grid-cols-2 gap-3">
+      <div>
+       <label data-template-id="label-filename" class="canva-text block mb-1 text-sm font-medium" for="inp-file" style="color: rgb(51, 65, 85); font-weight: 400; font-style: normal; font-size: 16px;">Nama File</label>
+       <div class="flex gap-2">
+        <input id="inp-file" data-template-id="input-filename" class="canva-input min-w-0 flex-1 rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500" required="" placeholder="contoh.pdf" style="font-weight: 400; font-style: normal; font-size: 16px;"> <button data-template-id="upload-pdf-btn" id="upload-pdf-btn" type="button" class="canva-button shrink-0 rounded-lg px-3 py-2 text-sm font-medium transition hover:opacity-90" style="background: rgb(15, 118, 110); color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">Upload PDF</button> <input id="pdf-picker" type="file" accept="application/pdf" class="hidden">
+       </div>
+      </div>
+      <div>
+       <label data-template-id="label-filetype" class="canva-text block mb-1 text-sm font-medium" for="inp-type" style="color: rgb(51, 65, 85); font-weight: 400; font-style: normal; font-size: 16px;">Tipe</label> <select id="inp-type" class="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500"> <option value="PDF">PDF</option> <option value="EPUB">EPUB</option> <option value="MOBI">MOBI</option> <option value="TXT">TXT</option> </select>
+      </div>
+     </div><button data-template-id="submit-btn" type="submit" class="canva-button w-full rounded-lg px-4 py-2.5 font-medium transition hover:opacity-90" style="background: rgb(13, 148, 136); color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">Simpan Buku</button>
+    </form>
+   </section>
+   <section>
+    <h2 data-template-id="list-heading" class="canva-text font-bold mb-3" style="color: rgb(15, 23, 42); font-weight: 700; font-style: normal; font-size: 24px;">Koleksi Anda</h2>
+    <p data-template-id="empty-state" id="empty-state" class="canva-text text-center py-8" style="color: rgb(148, 163, 184); font-weight: 400; font-style: italic; font-size: 16px;">Belum ada buku. Tambahkan koleksi pertama Anda!</p>
+    <div id="book-list" class="space-y-3"></div>
+   </section>
+  </main>
+  <template id="book-tpl">
+   <div data-template-id="book-card" class="canva-card rounded-xl p-4 flex items-start justify-between gap-3">
+    <div class="flex-1 min-w-0">
+     <h3 data-template-id="book-card-title" class="canva-text font-semibold truncate"></h3>
+     <p data-template-id="book-card-author" class="canva-text text-sm mt-0.5"></p><span data-template-id="book-card-badge" class="canva-tag inline-block mt-2 text-xs px-2 py-0.5 rounded-full font-medium"></span>
+    </div><button class="delete-btn text-red-400 hover:text-red-600 mt-1" aria-label="Delete book"> <i data-lucide="trash-2" style="width:18px;height:18px"></i> </button>
+   </div>
+  </template>
+  <script src="/_sdk/9d3258af1f44fbf1.editing_sdk.js" integrity="sha512-3+HAndrk+HZiTGp2ISu+/bgYK1Xci+cLW89chzrkSCXjd9L9cNh/u9apmMgkep6XBKvCauldOAnZkyNhCjybeA=="></script>
+  <script src="/_sdk/0e8d3a91e1c6f495.data_sdk.js" integrity="sha512-c00oDoGjsMgluCLLEyVl3suwEkgjOGGplVFbsilUoBg4aMKNmsL3mwsc9r0dPn95qiSZyjBousQXgROkAW7p/w=="></script>
+  <script>
+        let books = [];
+        const list = document.getElementById('book-list');
+        const empty = document.getElementById('empty-state');
+        const form = document.getElementById('book-form');
+        const submitBtn = form.querySelector('[data-template-id="submit-btn"]');
+        const uploadBtn = document.getElementById('upload-pdf-btn');
+        const pdfPicker = document.getElementById('pdf-picker');
+
+        uploadBtn.addEventListener('click', () => pdfPicker.click());
+        pdfPicker.addEventListener('change', () => {
+            const file = pdfPicker.files[0];
+            if (!file) return;
+            document.getElementById('inp-file').value = file.name;
+            document.getElementById('inp-type').value = 'PDF';
+        });
+
+        const handler = {
+            onDataChanged(data) {
+                books = data;
+                renderBooks();
+            }
+        };
+
+        function renderBooks() {
+            empty.classList.toggle('hidden', books.length > 0);
+            const existing = new Map([...list.children].map(el => [el.dataset.id, el]));
+            const ids = new Set(books.map(b => b.__backendId));
+
+            existing.forEach((el, id) => { if (!ids.has(id)) el.remove(); });
+
+            books.forEach(book => {
+                if (existing.has(book.__backendId)) return;
+                const tpl = document.getElementById('book-tpl');
+                const node = tpl.content.cloneNode(true);
+                const wrap = node.firstElementChild;
+                wrap.dataset.id = book.__backendId;
+                wrap.querySelector('[data-template-id="book-card-title"]').textContent = book.title;
+                wrap.querySelector('[data-template-id="book-card-author"]').textContent = book.author;
+                wrap.querySelector('[data-template-id="book-card-badge"]').textContent = book.file_type;
+                wrap.querySelector('.delete-btn').addEventListener('click', () => deleteBook(book));
+                list.appendChild(node);
+                lucide.createIcons();
+            });
+        }
+
+        async function deleteBook(book) {
+            const result = await window.dataSdk.delete(book);
+            if (!result.isOk) alert && void 0;
+        }
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            if (books.length >= 999) return;
+            submitBtn.disabled = true;
+            const record = {
+                title: document.getElementById('inp-title').value.trim(),
+                author: document.getElementById('inp-author').value.trim(),
+                file_name: document.getElementById('inp-file').value.trim(),
+                file_type: document.getElementById('inp-type').value,
+                uploaded_at: new Date().toISOString()
+            };
+            const result = await window.dataSdk.create(record);
+            submitBtn.disabled = false;
+            if (result.isOk) form.reset();
+        });
+
+        (async () => {
+            await window.dataSdk.init(handler);
+            lucide.createIcons();
+        })();
+    </script>
+ 
+</body></html>
